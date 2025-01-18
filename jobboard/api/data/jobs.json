@@ -1,0 +1,114 @@
+[
+  {
+    "postings": [
+      {
+        "id": 132423,
+        "sitename": "Monster.com",
+        "duration": 30
+      },
+      {
+        "id": 132424,
+        "sitename": "Career Builder",
+        "duration": 30
+      },
+      {
+        "id": 132425,
+        "sitename": "USA Jobs",
+        "duration": 30
+      }
+    ],
+    "id": 123457,
+    "req_name": "Software Engineer",
+    "location": {
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States"
+    },
+    "description": "We are seeking a highly skilled Software Engineer to join our dynamic team in Philadelphia. The ideal candidate will have a strong background in software development, with experience in various programming languages and frameworks. You will be responsible for designing, developing, and maintaining software applications that meet the needs of our clients. This role requires excellent problem-solving skills, attention to detail, and the ability to work collaboratively with other team members. Key responsibilities include writing clean, efficient code, debugging and troubleshooting issues, and staying up-to-date with the latest industry trends and technologies. The successful candidate will have a bachelor's degree in Computer Science or a related field, and at least 3 years of professional experience in software development. Strong communication skills and the ability to work in a fast-paced environment are essential. If you are passionate about technology and looking for an opportunity to grow your career, we encourage you to apply.",
+    "status": "Active"
+  },
+  {
+    "postings": [
+      {
+        "id": 132426,
+        "sitename": "Healthjobs.com",
+        "duration": 30
+      },
+      {
+        "id": 132427,
+        "sitename": "Nursing Jobs",
+        "duration": 30
+      },
+      {
+        "id": 132428,
+        "sitename": "USA Jobs",
+        "duration": 30
+      }
+    ],
+    "id": 123456,
+    "req_name": "Nurse Practitioner",
+    "location": {
+      "city": "San Diego",
+      "state": "California",
+      "country": "United States"
+    },
+    "description": "We are looking for a dedicated and compassionate Nurse Practitioner to join our healthcare team in San Diego. The ideal candidate will have extensive experience in providing primary and specialty healthcare services to patients of all ages. You will be responsible for conducting physical examinations, diagnosing and treating illnesses, prescribing medications, and developing treatment plans. This role requires strong clinical skills, excellent communication abilities, and a commitment to providing high-quality patient care. The successful candidate will have a master's degree in Nursing, a valid Nurse Practitioner license, and at least 2 years of experience in a clinical setting. You must be able to work independently as well as part of a multidisciplinary team. If you are passionate about patient care and looking for a rewarding career in healthcare, we encourage you to apply.",
+    "status": "Inactive"
+  },
+  {
+    "postings": [
+      {
+        "id": 132429,
+        "sitename": "Monster.com",
+        "duration": 30
+      },
+      {
+        "id": 132430,
+        "sitename": "Career Builder",
+        "duration": 30
+      },
+      {
+        "id": 132431,
+        "sitename": "Indeed",
+        "duration": 30
+      }
+    ],
+    "id": 123458,
+    "req_name": "Truck Driver",
+    "location": {
+      "city": "Phoenix",
+      "state": "Arizona",
+      "country": "United States"
+    },
+    "description": "We are seeking a reliable and experienced Truck Driver to join our logistics team in Phoenix. The ideal candidate will have a clean driving record and a valid commercial driver's license (CDL). You will be responsible for transporting goods safely and efficiently to various locations, ensuring timely deliveries and maintaining accurate records of shipments. This role requires excellent driving skills, attention to detail, and the ability to handle long hours on the road. Key responsibilities include inspecting vehicles for mechanical issues, adhering to all traffic laws and regulations, and providing exceptional customer service. The successful candidate will have at least 2 years of experience as a truck driver, strong communication skills, and the ability to work independently. If you are a dedicated professional looking for a stable and rewarding career in transportation, we encourage you to apply.",
+    "status": "Inactive"
+  },
+  {
+    "postings": [
+      {
+        "id": 132432,
+        "sitename": "Techjobs.com",
+        "duration": 30
+      },
+      {
+        "id": 132433,
+        "sitename": "Dice.com",
+        "duration": 30
+      },
+      {
+        "id": 132434,
+        "sitename": "MBA Connection",
+        "duration": 30
+      }
+    ],
+    "id": 123459,
+    "req_name": "Project Manager",
+    "location": {
+      "city": "Orlando",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "description": "We are seeking an experienced Project Manager to lead and oversee various projects within our organization in Orlando. The ideal candidate will have a proven track record of successfully managing projects from inception to completion, ensuring they are delivered on time, within scope, and within budget. You will be responsible for coordinating with cross-functional teams, defining project objectives, developing detailed project plans, and monitoring progress. This role requires strong leadership skills, excellent communication abilities, and the ability to manage multiple projects simultaneously. The successful candidate will have a bachelor's degree in Business Administration or a related field, a Project Management Professional (PMP) certification, and at least 5 years of experience in project management. If you are a strategic thinker with a passion for driving results and looking for an opportunity to make a significant impact, we encourage you to apply.",
+    "status": "Active"
+  }
+]

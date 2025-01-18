@@ -1,0 +1,61 @@
+{% extends "base.html" %} {% block content %}
+
+<div
+  class="w-3/4 mx-auto mt-32 border-2 p-8 shadow-md rounded-md bg-white flex"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke-width="2.0"
+    stroke="#333"
+    class="size-1/6 cursor-pointer -mt-4"
+    onclick="window.location='/'"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+    />
+  </svg>
+
+  <div class="p-7 mr-5 -ml-10">
+    <div class="flex justify-between align-center">
+      <h1 class="text-4xl font-semibold mb-4">{{ job.req_name }}</h1>
+      <p
+        class="text-lg font-bold {% if job.status == 'Inactive' %}text-red-500{% else %}text-blue-500{% endif %}"
+      >
+        {{ job.status }}
+      </p>
+    </div>
+    <p class="mb-4 text-red-black font-semibold">
+      Location:
+      <span class="text-gray-600"
+        >{{ job.location.city }} | {{job.location.state}} -
+        {{job.location.country}}
+      </span>
+    </p>
+    <p class="text-md mb-4 text-justify text-gray-600">{{ job.description }}</p>
+
+    <button
+      class="mt-4 px-4 py-2 font-semibold text-white rounded 
+      {% if job.status != 'Inactive' %}bg-blue-500{% else %}bg-gray-400 cursor-not-allowed{% endif %}"
+      {% if job.status == 'Inactive' %}disabled{% endif %}
+    >
+      Apply Now
+    </button>
+  </div>
+  
+  <div class="border-l-2 p-10">
+    <h2 class="text-2xl font-semibold mb-4">Postings</h2>
+    {% for posting in job.postings %}
+    <div class="flex justify-between items-center mb-2">
+      <p class="font-bold pr-5">{{ posting.sitename }}</p>
+      <span
+        class="bg-blue-500 text-white text-xs font-semibold px-2 py-1 rounded -mr-5"
+        >{{ posting.duration }}</span
+      >
+    </div>
+    {% endfor %} {% endblock %}
+  </div>
+</div>
