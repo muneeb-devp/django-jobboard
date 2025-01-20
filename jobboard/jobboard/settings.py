@@ -11,8 +11,7 @@ NPM_BIN_PATH='/Users/mm/.nvm/versions/node/v22.11.0/bin/npm'
 SECRET_KEY = 'django-insecure-3i9#m7jij4efoh#^cq9vfwk^nvdlu#8#g6nq(m#ok!g%5txvbj'
 
 DEBUG = True
-ALLOWED_HOSTS = ['jobboard-h0dvd9ejamhng3h8.centralus-01.azurewebsites.net']
-
+ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
